@@ -186,7 +186,7 @@ public class DesafioMeuTimeApplication implements MeuTimeInterface {
 			return jogadores.stream()
 					.filter(jogador -> jogador.getIdTime().equals(idTime))
 					.max(Comparator.comparing(Jogador::getSalario))
-					.orElseThrow(NullPointerException::new)
+					te.orElseThrow(NullPointerException::new)
 					.getId();
 		}
 	}

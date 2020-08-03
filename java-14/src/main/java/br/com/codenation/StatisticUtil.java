@@ -1,7 +1,6 @@
 package br.com.codenation;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
 
 public class StatisticUtil {
